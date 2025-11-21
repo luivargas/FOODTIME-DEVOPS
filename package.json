@@ -1,0 +1,16 @@
+{
+    "name": "devops-nodejs-app-example",
+    "version": "1.0.0",
+    "description": "AWS Devops nodejs app example",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Teste OK\"",
+        "start": "node server.js",
+        "build": "npm install && echo \"Build completed\""
+    },
+    "author": "cassiowt",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
